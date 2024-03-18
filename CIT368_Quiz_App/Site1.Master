@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CIT368_Quiz_App.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title id="title" runat="server"></title>
+
+    <link type="text/css" rel="stylesheet" href="Resources/ApplicationStyles.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- NAVBAR -->
+        <nav>
+            <ul class="navbar">
+                <li class="left" id="register" runat="server"><a href="/Pages/RegisterLogin.aspx">Login</a></li>
+                <li class="left" id="profile" runat="server"><a href="/Pages/Profile.aspx">Profile</a></li>
+                <li class="left" id="logout" runat="server"><asp:LinkButton Text="Logout" OnClick="User_Logout" runat="server" /></li>
+
+                <li class="right" id="home" runat="server"><a href="/Pages/Home.aspx">Home</a></li>
+
+                <%-- <li class="" id="" runat="server"><a href=""></a></li> --%>
+            </ul>
+        </nav>
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
