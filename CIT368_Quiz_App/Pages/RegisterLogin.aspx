@@ -48,12 +48,12 @@
 
             <p>
                 <asp:Label Text="Password : " runat="server" />
-                <asp:TextBox ID="ff" Font-Names="Courier" runat="server" />
+                <asp:TextBox ID="ff" Font-Names="Courier" TextMode="Password" runat="server" />
             </p>
 
             <p>
                 <asp:Label Text=" Confirm &nbsp;: " runat="server" />
-                <asp:TextBox ID="rr" Font-Names="Courier" runat="server" />
+                <asp:TextBox ID="rr" Font-Names="Courier" TextMode="Password" runat="server" />
             </p>
 
             <p>Password Requirements:</p>
@@ -79,7 +79,7 @@
 
             <p>
                 <asp:Label Text="Password : " runat="server" />
-                <asp:TextBox ID="ii" Font-Names="Courier" runat="server" />
+                <asp:TextBox ID="ii" Font-Names="Courier" TextMode="Password" runat="server" />
             </p>
         </div>
 

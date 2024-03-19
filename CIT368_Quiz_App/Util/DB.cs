@@ -9,7 +9,7 @@ namespace CIT368_Quiz_App.Util
 {
     public class DB
     {
-        private static readonly string db = ConfigurationManager.ConnectionStrings["db"].ConnectionString;
+        private static readonly string db = ConfigurationManager.ConnectionStrings["db2"].ConnectionString;
 
 
         public static string A() { return a(); }
